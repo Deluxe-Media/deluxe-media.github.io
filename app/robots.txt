@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://deluxemedia.hu/sitemap.xml
