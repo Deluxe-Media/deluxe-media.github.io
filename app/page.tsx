@@ -121,7 +121,17 @@ export default function Home() {
               </motion.div>
 
               <div className="mt-8 xl:mt-12">
-                <motion.h2 variants={rise}>Hirdess a Kontroll felületein!</motion.h2>
+                <motion.h2 variants={rise}>
+                  Hirdess Te is a&nbsp;
+                  <a
+                    href="https://kontroll.hu/?utm_source=deluxemedia.hu&utm_medium=referral&utm_campaign=hirdetes"
+                    target="_blank"
+                    className="underline underline-offset-2 -mx-1.5 -my-1 px-1.5 py-1 hover:bg-white/10 rounded-md inline-block"
+                  >
+                    kontroll.hu
+                  </a>
+                  &nbsp;felületein!
+                </motion.h2>
                 <motion.p variants={rise} className="mt-4">
                   A display kampányoktól a natív tartalmakon át a videós és podcast együttműködésekig segítünk
                   megtalálni azokat a megoldásokat, amelyek a kampányod céljaihoz és a célközönségedhez leginkább
@@ -207,14 +217,22 @@ export default function Home() {
               viewport={{ once: true, amount: 0.3 }}
               variants={slideIn}
               custom={{ x: -40, delay: 0 }}
-              className="bg-secondary rounded-2xl text-secondary-foreground p-4 md:p-10 md:col-span-5 row-span-2 flex flex-col justify-between gap-6"
+              className="bg-secondary rounded-2xl text-secondary-foreground p-4 md:p-10 md:col-span-5 row-span-2 flex flex-col justify-between gap-2 md:gap-6"
             >
-              <motion.p variants={rise} className="text-base font-light uppercase">
-                Kontroll hirdetés
+              <motion.p variants={rise} className="text-xs md:text-base font-light uppercase">
+                Egy portál, teljes figyelem, mérhető eredmény.
               </motion.p>
               <div className="flex-1 flex flex-col justify-center">
                 <motion.h2 variants={rise} className="font-black text-2xl md:text-3x lg:text-3xl">
-                  Hirdess a Kontrollon, ahol a közönséged olvas.
+                  Hirdess a&nbsp;
+                  <a
+                    href="https://kontroll.hu/?utm_source=deluxemedia.hu&utm_medium=referral&utm_campaign=hirdetes"
+                    target="_blank"
+                    className="underline underline-offset-2 -mx-1.5 -my-1 px-1.5 py-1 hover:bg-white/10 rounded-md inline-block"
+                  >
+                    kontroll.hu
+                  </a>
+                  -n, ahol a közönséged olvas.
                 </motion.h2>
               </div>
             </motion.div>
@@ -227,7 +245,7 @@ export default function Home() {
               className="bg-white rounded-2xl p-4 md:col-span-3 row-span-1"
             >
               <motion.h3 variants={rise} className="font-black text-xl md:text-2xl mb-1">
-                Kész formátumok
+                Formátumok
               </motion.h3>
               <motion.p variants={rise}>
                 Display, podcast, PR cikk, natív hirdetés és videós tartalmak a Kontroll oldalán.
@@ -301,7 +319,7 @@ export default function Home() {
               </h3>
 
               <TileContent>
-                A Kontroll szerkesztősége készít cikket a márkádhoz kapcsolódó témáról, a tartalmat veled egyeztetve.
+                A Kontroll szerkesztősége készít cikket a márkádhoz kapcsolódó témáról, a tartalmat Veled egyeztetve.
               </TileContent>
             </motion.div>
             <motion.div
@@ -336,7 +354,7 @@ export default function Home() {
               </h3>
 
               <TileContent>
-                A Kontroll szerkesztősége készít videót a márkádhoz kapcsolódó, veled egyeztetett témában.
+                A Kontroll szerkesztősége készít videót a márkádhoz kapcsolódó, Veled egyeztetett témában.
               </TileContent>
             </motion.div>
             <motion.div
