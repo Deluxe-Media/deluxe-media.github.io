@@ -133,19 +133,19 @@ export default function Home() {
 
               <ul className="list-none pl-1 xl:pl-2 mt-8 xl:mt-12 font-semibold relative z-10">
                 <motion.li variants={rise} className="flex gap-1 xl:gap-2">
-                  <ListSparkle className="mt-1.5 xl:mt-2" />
+                  <ListSparkle className="mt-1.75 xl:mt-2.5" />
                   <span>DKT–Gemius Audience által auditált médium</span>
                 </motion.li>
                 <motion.li variants={rise} className="flex gap-1 xl:gap-2">
-                  <ListSparkle className="mt-1.5 xl:mt-2" />
+                  <ListSparkle className="mt-1.75 xl:mt-2.5" />
                   <span>Erős organikus közösség és elérés</span>
                 </motion.li>
                 <motion.li variants={rise} className="flex gap-1 xl:gap-2">
-                  <ListSparkle className="mt-1.5 xl:mt-2" />
+                  <ListSparkle className="mt-1.75 xl:mt-2.5" />
                   <span>Saját gyártású videós, podcast és natív tartalmak</span>
                 </motion.li>
                 <motion.li variants={rise} className="flex gap-1 xl:gap-2">
-                  <ListSparkle className="mt-1.5 xl:mt-2" />
+                  <ListSparkle className="mt-1.75 xl:mt-2.5" />
                   <span>Dedikált kapcsolattartó a tervezéstől a riportálásig</span>
                 </motion.li>
               </ul>
@@ -788,7 +788,7 @@ function LogoSet(props: { hidden?: boolean }) {
       <picture>
         <source srcSet="/logos/clb.avif" type="image/avif" />
         <source srcSet="/logos/clb.webp" type="image/webp" />
-        <img src="/logos/clb.png" width="240" height="120" alt="CLB" className="h-20 w-auto md:h-24 opacity-70" />
+        <img src="/logos/clb.png" width="240" height="120" alt="CLB" className="h-20 w-auto md:h-24 opacity-70 -mt-6" />
       </picture>
       <picture>
         <source srcSet="/logos/concorde.avif" type="image/avif" />
