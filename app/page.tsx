@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <MotionConfig reducedMotion="user">
       <main>
-        <section className="hero relative flex h-full max-h-3/5 flex-col justify-center overflow-clip py-20 xl:py-44">
+        <section className="hero relative flex h-full max-h-2/5 flex-col justify-center overflow-clip py-12 xl:py-20">
           <HeroTile
             from="top"
             delay={0.3}
@@ -528,7 +528,7 @@ export default function Home() {
           </motion.div>
         </motion.section>
 
-        <footer className="py-16 lg:py-20">
+        <footer className="py-6 lg:py-8">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -619,7 +619,7 @@ export default function Home() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
             variants={rise}
-            className="py-10 flex flex-col sm:flex-row gap-4 md:gap-8 items-center justify-center"
+            className="py-4 flex flex-col sm:flex-row gap-4 md:gap-8 items-center justify-center"
           >
             <a href="/Deluxe Media - ASZF.pdf" target="_blank" className="text-lg hover:underline underline-offset-2">
               Hirdetési ÁSZF
