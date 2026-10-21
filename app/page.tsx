@@ -535,7 +535,7 @@ export default function Home() {
             className="mx-auto max-w-hd px-4 py-12 md:p-20 lg:text-xl"
           >
             <motion.h2 variants={rise} className="font-black text-3xl lg:text-4xl">
-              A Deluxe Media-ról
+              A Deluxe Mediáról
             </motion.h2>
 
             <motion.p variants={rise} className="mt-4 lg:mt-6">
