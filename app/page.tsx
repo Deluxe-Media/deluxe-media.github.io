@@ -319,7 +319,7 @@ export default function Home() {
               </h3>
 
               <TileContent>
-                A Kontroll szerkesztősége készít cikket a márkádhoz kapcsolódó témáról, a tartalmat Veled egyeztetve.
+                A Kontroll szerkesztősége készít cikket a márkádhoz kapcsolódó témáról, a tartalmat veled egyeztetve.
               </TileContent>
             </motion.div>
             <motion.div
@@ -354,7 +354,7 @@ export default function Home() {
               </h3>
 
               <TileContent>
-                A Kontroll szerkesztősége készít videót a márkádhoz kapcsolódó, Veled egyeztetett témában.
+                A Kontroll szerkesztősége készít videót a márkádhoz kapcsolódó, veled egyeztetett témában.
               </TileContent>
             </motion.div>
             <motion.div
@@ -487,7 +487,7 @@ export default function Home() {
             <motion.p variants={rise} className="mt-4 lg:mt-6">
               PR-cikkre, filmre vagy podcastra van szükséged? A koncepció kidolgozását és az anyagok elkészítését is
               vállaljuk.
-              <br />A kreatív javaslatot a kampányod céljához és a választott felülethez igazítjuk. Veled egyeztetve
+              <br />A kreatív javaslatot a kampányod céljához és a választott felülethez igazítjuk. veled egyeztetve
               véglegesítjük az elképzelést, majd összefogjuk a gyártást az elkészítéstől az átadásig.
             </motion.p>
 
