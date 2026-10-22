@@ -232,7 +232,7 @@ export default function Home() {
                   >
                     kontroll.hu
                   </a>
-                  -n, ahol a közönséged olvas.
+                  -n, amit a közönséged olvas.
                 </motion.h2>
               </div>
             </motion.div>
